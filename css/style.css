@@ -281,17 +281,39 @@ h4
 }
 
 @media (max-width: 768px) {
+   
     .container {
         margin: 10px;
+        margin-left: 200px;
+        margin-right: -60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 550px;
+    }
+
+    .top
+    {
+        height: 900px;
+        
+    }
+
+    .container .top h2
+    {
+        line-height: 0.9em;
+        letter-spacing: 0.2em;
+        font-size: 2em;
+
     }
     .group {
         grid-template-columns: 1fr;
     }
+
     .group .imgBx img
     {
-    width: 40%;
-    border-radius: 8px;
+    width: 50%;
+    border-radius: 10px;
     box-shadow: 0 35px 55px rgba(12, 12, 12, 0.1);
+    
     }
     .contactInfo li {
         flex-direction: column;
